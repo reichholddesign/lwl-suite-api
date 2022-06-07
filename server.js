@@ -38,5 +38,5 @@ app.get('/api/:task', (request, response) => {
 })
 
 app.listen(process.env.PORT || PORT, () => {
-    console.log(`The server is now running on ${PORT}!`)
+    console.log(`The server is now working on ${PORT}!`)
 });
