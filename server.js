@@ -1,7 +1,4 @@
-const { response } = require('express');
-const e = require('express');
 const express = require('express')
-const { request } = require('http')
 const app = express()
 const PORT = 8000;
 
@@ -38,5 +35,5 @@ app.get('/api/:task', (request, response) => {
 })
 
 app.listen(process.env.PORT || PORT, () => {
-    console.log(`New console.log message ${PORT}!`)
+    console.log(`New console.log message${PORT}!`)
 });
